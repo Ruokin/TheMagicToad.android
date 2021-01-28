@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Zhaba.unity
+- path: Assets/Scenes/PFTower.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -26,5 +26,6 @@ public class TongueBodyRenderer : MonoBehaviour
         l.endColor = Color.red;
         l.SetPositions(pos.ToArray());
         l.useWorldSpace = true;
+        l.sortingOrder = 1;
     }
 }
