@@ -4,103 +4,130 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -531187261805749909
-    second: Sky
+    second: sky
   - first:
       213: 2363121060062423769
-    second: Back
+    second: background
   - first:
       213: 7900636238308104305
-    second: Lamp1
+    second: lampWood
   - first:
       213: -1561715539692663464
-    second: Lamp2
+    second: lampIron
   - first:
       213: -1501453217473786866
-    second: Lamp3
+    second: lampGold
   - first:
       213: -4851421844866213992
-    second: WindowWood
+    second: windowsClosed
   - first:
       213: 5458473945153024202
-    second: Window1
+    second: windows1
   - first:
       213: -8118990485359021452
-    second: Window2
+    second: windows3
   - first:
       213: -4462411795971604777
-    second: Window3
+    second: chair1
   - first:
       213: -1151104919306523161
-    second: Chair1
+    second: chair2
   - first:
       213: -1977077243519839168
-    second: Chair2
+    second: cabinet2
   - first:
       213: 1565558999940541893
-    second: Chair3
+    second: cabinet3
   - first:
       213: 2914324356424985286
-    second: Cabinet1
+    second: chair3
   - first:
       213: -8711316126297937371
-    second: Cabinet2
+    second: cloud1
   - first:
       213: 1256337393098142273
-    second: Cabinet3
+    second: cloud2
   - first:
       213: 6065302819524094302
-    second: Shelf1
+    second: TowerFull_15
   - first:
       213: -2625539178260269686
-    second: Shelf2
+    second: shelf3
   - first:
       213: 4002008562470318129
-    second: Shelf3
+    second: macrame
   - first:
       213: -5213389701388165689
-    second: Carpet1
+    second: art
   - first:
       213: -6081721986874480942
-    second: Carpet2
+    second: flowers
   - first:
       213: 2848304829187679503
-    second: Carpet3
+    second: booksSkeleton
   - first:
       213: 5078567250738074956
-    second: Macrame
+    second: TowerFull_21
   - first:
       213: 1790009094731485488
-    second: Art
+    second: web
   - first:
       213: -6615230137535596068
-    second: Flowers
+    second: portalClosed
   - first:
       213: 8631058036465814524
-    second: Sceleton
+    second: portal
   - first:
       213: 8865224781058139951
-    second: PortalClosed
+    second: broom
   - first:
       213: 3381811480260920192
-    second: Portal
+    second: candelabr
   - first:
       213: -4087230119578868673
-    second: Broom
+    second: trash1
   - first:
       213: 7152415495622124219
-    second: Paper1
+    second: trash2
   - first:
       213: -188100217633909133
-    second: Paper2
+    second: booksPumpkin
   - first:
       213: 3398213655175448141
-    second: Pumpkin
+    second: TowerFull_30
   - first:
       213: -8533865383490067345
-    second: Chandelier
+    second: TowerFull_31
   - first:
       213: 6094705622057809639
-    second: Web
+    second: portalFront
+  - first:
+      213: -3860001013238761078
+    second: TowerFull_33
+  - first:
+      213: -4276704053716657835
+    second: TowerFull_34
+  - first:
+      213: -5624670168472443529
+    second: windows2
+  - first:
+      213: 4188806984691536587
+    second: cabinet1
+  - first:
+      213: -8691433283659108659
+    second: shelf1
+  - first:
+      213: 6422861188795454278
+    second: shelf2
+  - first:
+      213: 347934492040701661
+    second: carpet1
+  - first:
+      213: 2911050192719390107
+    second: carpet2
+  - first:
+      213: -2889198345016845115
+    second: carpet3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -165,7 +192,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -177,7 +204,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -189,7 +216,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -200,27 +227,27 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sky
+      name: sky
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 387
-        height: 386
+        x: 0
+        y: 126
+        width: 262
+        height: 262
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -233,15 +260,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Back
+      name: background
       rect:
         serializedVersion: 2
-        x: 389
+        x: 263
         y: 126
         width: 148
         height: 262
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,15 +281,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lamp1
+      name: lampWood
       rect:
         serializedVersion: 2
-        x: 538
-        y: 338
+        x: 412
+        y: 339
         width: 80
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -275,15 +302,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lamp2
+      name: lampIron
       rect:
         serializedVersion: 2
-        x: 619
-        y: 340
+        x: 493
+        y: 341
         width: 81
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -296,15 +323,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lamp3
+      name: lampGold
       rect:
         serializedVersion: 2
-        x: 701
-        y: 328
+        x: 575
+        y: 329
         width: 54
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -317,15 +344,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WindowWood
+      name: windowsClosed
       rect:
         serializedVersion: 2
-        x: 538
-        y: 239
+        x: 412
+        y: 240
         width: 48
         height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -338,15 +365,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Window1
+      name: windows1
       rect:
         serializedVersion: 2
-        x: 587
-        y: 241
+        x: 461
+        y: 242
         width: 42
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -359,15 +386,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Window2
+      name: windows3
       rect:
         serializedVersion: 2
-        x: 630
-        y: 241
+        x: 547
+        y: 242
         width: 42
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -380,15 +407,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Window3
+      name: chair1
       rect:
         serializedVersion: 2
-        x: 673
-        y: 241
-        width: 42
-        height: 83
+        x: 590
+        y: 308
+        width: 27
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -401,15 +428,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chair1
+      name: chair2
       rect:
         serializedVersion: 2
-        x: 716
-        y: 307
-        width: 27
-        height: 20
+        x: 590
+        y: 263
+        width: 35
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -422,15 +449,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chair2
+      name: cabinet2
       rect:
         serializedVersion: 2
-        x: 716
-        y: 262
-        width: 35
-        height: 44
+        x: 460
+        y: 142
+        width: 47
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -443,15 +470,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chair3
+      name: cabinet3
       rect:
         serializedVersion: 2
-        x: 716
-        y: 222
-        width: 36
-        height: 39
+        x: 508
+        y: 142
+        width: 53
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -464,15 +491,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cabinet1
+      name: chair3
       rect:
         serializedVersion: 2
-        x: 538
-        y: 141
-        width: 47
-        height: 91
+        x: 590
+        y: 223
+        width: 36
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -485,15 +512,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cabinet2
+      name: cloud1
       rect:
         serializedVersion: 2
-        x: 586
-        y: 141
-        width: 47
-        height: 91
+        x: 1
+        y: 85
+        width: 73
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -506,15 +533,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cabinet3
+      name: cloud2
       rect:
         serializedVersion: 2
-        x: 634
-        y: 141
-        width: 53
-        height: 97
+        x: 97
+        y: 103
+        width: 45
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -527,15 +554,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shelf1
+      name: TowerFull_15
       rect:
         serializedVersion: 2
-        x: 538
-        y: 126
+        x: 460
+        y: 105
         width: 46
-        height: 14
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -548,15 +575,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shelf2
+      name: shelf3
       rect:
         serializedVersion: 2
-        x: 585
-        y: 105
-        width: 46
-        height: 35
+        x: 506
+        y: 89
+        width: 44
+        height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -569,15 +596,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shelf3
+      name: macrame
       rect:
         serializedVersion: 2
-        x: 632
-        y: 90
-        width: 44
-        height: 50
+        x: 264
+        y: 62
+        width: 39
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -590,15 +617,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carpet1
+      name: art
       rect:
         serializedVersion: 2
-        x: 389
-        y: 106
-        width: 34
-        height: 19
+        x: 304
+        y: 82
+        width: 18
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -611,15 +638,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carpet2
+      name: flowers
       rect:
         serializedVersion: 2
-        x: 424
-        y: 102
-        width: 37
-        height: 23
+        x: 323
+        y: 72
+        width: 46
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -632,15 +659,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carpet3
+      name: booksSkeleton
       rect:
         serializedVersion: 2
-        x: 462
-        y: 104
-        width: 44
-        height: 21
+        x: 371
+        y: 78
+        width: 40
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -653,36 +680,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Macrame
+      name: web
       rect:
         serializedVersion: 2
-        x: 390
-        y: 62
-        width: 39
-        height: 38
+        x: 450
+        y: 33
+        width: 100
+        height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c45dc24d102ba7640800000000000000
-      internalID: 5078567250738074956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Art
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 82
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -695,15 +701,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flowers
+      name: portalClosed
       rect:
         serializedVersion: 2
-        x: 449
-        y: 72
-        width: 46
-        height: 28
+        x: 263
+        y: 34
+        width: 38
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -716,15 +722,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sceleton
+      name: portal
       rect:
         serializedVersion: 2
-        x: 497
-        y: 78
-        width: 40
-        height: 22
+        x: 302
+        y: 31
+        width: 44
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -737,15 +743,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PortalClosed
+      name: broom
       rect:
         serializedVersion: 2
-        x: 389
-        y: 34
-        width: 38
-        height: 27
+        x: 346
+        y: 6
+        width: 13
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -758,15 +764,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Portal
+      name: candelabr
       rect:
         serializedVersion: 2
-        x: 428
-        y: 31
-        width: 44
-        height: 30
+        x: 370
+        y: 34
+        width: 20
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -779,15 +785,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Broom
+      name: trash1
       rect:
         serializedVersion: 2
-        x: 472
-        y: 6
-        width: 13
-        height: 65
+        x: 263
+        y: 20
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -800,15 +806,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paper1
+      name: trash2
       rect:
         serializedVersion: 2
-        x: 389
-        y: 20
-        width: 11
-        height: 10
+        x: 275
+        y: 21
+        width: 14
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -821,15 +827,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paper2
+      name: booksPumpkin
       rect:
         serializedVersion: 2
-        x: 401
-        y: 21
-        width: 14
-        height: 9
+        x: 290
+        y: 0
+        width: 32
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -842,15 +848,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pumpkin
+      name: TowerFull_30
       rect:
         serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 30
+        x: 535
+        y: 28
+        width: 15
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -863,36 +869,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chandelier
+      name: portalFront
       rect:
         serializedVersion: 2
-        x: 496
-        y: 34
-        width: 20
-        height: 42
+        x: 370
+        y: 5
+        width: 36
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f646218e5ae919980800000000000000
-      internalID: -8533865383490067345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Web
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 28
-        width: 100
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -900,6 +885,153 @@ TextureImporter:
       bones: []
       spriteID: 7e6f45dd87eb49450800000000000000
       internalID: 6094705622057809639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windows2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 242
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775a675584821f1b0800000000000000
+      internalID: -5624670168472443529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cabinet1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 143
+        width: 47
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2d63362c1a12a30800000000000000
+      internalID: 4188806984691536587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shelf1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 126
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceed7a4a73d16780800000000000000
+      internalID: -8691433283659108659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shelf2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 105
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643dbcfa836922950800000000000000
+      internalID: 6422861188795454278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpet1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 106
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6213bb39c14d400800000000000000
+      internalID: 347934492040701661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpet2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 102
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b952f541ab0266820800000000000000
+      internalID: 2911050192719390107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpet3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 104
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccdf9fa96187e7d0800000000000000
+      internalID: -2889198345016845115
       vertices: []
       indices: 
       edges: []
