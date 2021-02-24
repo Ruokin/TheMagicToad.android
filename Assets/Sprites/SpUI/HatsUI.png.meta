@@ -3,41 +3,41 @@ guid: 2f0e5f149e5693c46938dbc203039328
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3405535787323856668
-    second: MageOpened
+      213: 1590946731656337725
+    second: mageActive
   - first:
-      213: -7818167585767886359
-    second: PuritanOpened
+      213: -4068050434626739561
+    second: puritanActive
   - first:
-      213: -6906012915184811647
-    second: RiceOpened
+      213: 9050615194563433874
+    second: riceActive
   - first:
-      213: 3521027307299819663
-    second: SamuraiOpened
+      213: -5055753809910994109
+    second: samuraiActive
   - first:
-      213: 8936135844126535204
-    second: SovietOpened
+      213: 513099664788239189
+    second: sovietActive
   - first:
-      213: -4664797937723895504
-    second: AnimeOpened
+      213: -5457728778280095458
+    second: animeActive
   - first:
-      213: 4391336985494247721
-    second: MageClosed
+      213: 7234217075271854846
+    second: mageDisactive
   - first:
-      213: -6717843582834322054
-    second: PuritanClosed
+      213: 6404010320871212158
+    second: puritanDisactive
   - first:
-      213: -4442393319443827896
-    second: RiceClosed
+      213: -416147714538342063
+    second: riceDisactive
   - first:
-      213: -6012538070701588039
-    second: SamuraiClosed
+      213: 3279040506568010635
+    second: samuraiDisactive
   - first:
-      213: 9176079528624003664
-    second: SovietClosed
+      213: -7408622709932800621
+    second: sovietDisactive
   - first:
-      213: 4456556515654671447
-    second: AnimeClosed
+      213: -5406414266476241886
+    second: animeDisactive
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,19 +137,19 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MageOpened
+      name: mageActive
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17915951c4e24f20800000000000000
-      internalID: 3405535787323856668
+      spriteID: d39d1fc8f9d241610800000000000000
+      internalID: 1590946731656337725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PuritanOpened
+      name: puritanActive
       rect:
         serializedVersion: 2
         x: 34
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e1f4dfc00a408390800000000000000
-      internalID: -7818167585767886359
+      spriteID: 79223b3eea16b87c0800000000000000
+      internalID: -4068050434626739561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RiceOpened
+      name: riceActive
       rect:
         serializedVersion: 2
         x: 72
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1814620e7d9e820a0800000000000000
-      internalID: -6906012915184811647
+      spriteID: 295d4b6319e3a9d70800000000000000
+      internalID: 9050615194563433874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamuraiOpened
+      name: samuraiActive
       rect:
         serializedVersion: 2
         x: 113
@@ -226,19 +226,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f805e084ea33dd030800000000000000
-      internalID: 3521027307299819663
+      spriteID: 34b6d6842ba56d9b0800000000000000
+      internalID: -5055753809910994109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SovietOpened
+      name: sovietActive
       rect:
         serializedVersion: 2
         x: 164
         y: 53
-        width: 40
+        width: 41
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e2ccd5438830c70800000000000000
-      internalID: 8936135844126535204
+      spriteID: 55333163d65ee1700800000000000000
+      internalID: 513099664788239189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimeOpened
+      name: animeActive
       rect:
         serializedVersion: 2
         x: 205
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0311ef4adfe434fb0800000000000000
-      internalID: -4664797937723895504
+      spriteID: e11303aa7904244b0800000000000000
+      internalID: -5457728778280095458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MageClosed
+      name: mageDisactive
       rect:
         serializedVersion: 2
         x: 0
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9295b65d8b921fc30800000000000000
-      internalID: 4391336985494247721
+      spriteID: efae4a7f91a156460800000000000000
+      internalID: 7234217075271854846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PuritanClosed
+      name: puritanDisactive
       rect:
         serializedVersion: 2
         x: 34
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a75d584aadc65c2a0800000000000000
-      internalID: -6717843582834322054
+      spriteID: e74c679f47d9fd850800000000000000
+      internalID: 6404010320871212158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RiceClosed
+      name: riceDisactive
       rect:
         serializedVersion: 2
         x: 72
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8437bf110d27952c0800000000000000
-      internalID: -4442393319443827896
+      spriteID: 159f9d4cbdb893af0800000000000000
+      internalID: -416147714538342063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SamuraiClosed
+      name: samuraiDisactive
       rect:
         serializedVersion: 2
         x: 113
@@ -352,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b1c1510b7c2f8ca0800000000000000
-      internalID: -6012538070701588039
+      spriteID: b8b6a16b7fd718d20800000000000000
+      internalID: 3279040506568010635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SovietClosed
+      name: sovietDisactive
       rect:
         serializedVersion: 2
         x: 164
@@ -373,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05a1e5ed6bbf75f70800000000000000
-      internalID: 9176079528624003664
+      spriteID: 395409bd5e84f2990800000000000000
+      internalID: -7408622709932800621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnimeClosed
+      name: animeDisactive
       rect:
         serializedVersion: 2
         x: 205
@@ -394,8 +394,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75c9c050a8ed8dd30800000000000000
-      internalID: 4456556515654671447
+      spriteID: 22c541a7ede88f4b0800000000000000
+      internalID: -5406414266476241886
       vertices: []
       indices: 
       edges: []
