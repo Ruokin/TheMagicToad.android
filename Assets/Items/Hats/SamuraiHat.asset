@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Samurai hat
   description: Old warrior's hat.
   active: 1
-  hatID: 5
+  id: 5
   disactiveImage: {fileID: 3279040506568010635, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   activeImage: {fileID: -5055753809910994109, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   inTowerImage: {fileID: -6585437614361438694, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}

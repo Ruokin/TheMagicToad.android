@@ -245,11 +245,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 182845363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 238dcfea947dab8419f956f1353aeacb, type: 3}
+  m_Script: {fileID: 11500000, guid: 893b3868fa744c24ba0051682105f8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wearedHat: {fileID: 0}
-  hatSprite: {fileID: 182845365}
+  wearedHatID: 0
+  hats:
+  - {fileID: 0}
+  - {fileID: -6161033762643812369, guid: e4a297a1e1e1e9744a466f0b2c284150, type: 3}
+  - {fileID: -992948942421070100, guid: e4a297a1e1e1e9744a466f0b2c284150, type: 3}
+  - {fileID: -2924917680258344399, guid: e4a297a1e1e1e9744a466f0b2c284150, type: 3}
+  - {fileID: -5877281972879277980, guid: e4a297a1e1e1e9744a466f0b2c284150, type: 3}
+  - {fileID: -1673383155855089973, guid: e4a297a1e1e1e9744a466f0b2c284150, type: 3}
+  - {fileID: 2376445854889650853, guid: e4a297a1e1e1e9744a466f0b2c284150, type: 3}
+  hat: {fileID: 0}
 --- !u!1 &245565746
 GameObject:
   m_ObjectHideFlags: 0

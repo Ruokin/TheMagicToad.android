@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Rice farmer hat
   description: Welcome to the rice fields.
   active: 1
-  hatID: 4
+  id: 4
   disactiveImage: {fileID: -416147714538342063, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   activeImage: {fileID: 9050615194563433874, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   inTowerImage: {fileID: 7960259286683005008, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}

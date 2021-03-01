@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Mage hat
   description: The old mage hat. It's previous owner was cool, you know.
   active: 1
-  hatID: 2
+  id: 2
   disactiveImage: {fileID: 7234217075271854846, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   activeImage: {fileID: 1590946731656337725, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   inTowerImage: {fileID: -57921569455135347, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}

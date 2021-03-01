@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Soviet hat
   description: Cheeky breeky eev damky.
   active: 1
-  hatID: 6
+  id: 6
   disactiveImage: {fileID: -7408622709932800621, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   activeImage: {fileID: 513099664788239189, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   inTowerImage: {fileID: -8219847405777042665, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}

@@ -8162,7 +8162,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 1080825480604336155, guid: 31fdba174ef820740a2852b028bf2e4e, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -8460,6 +8460,7 @@ MonoBehaviour:
   hatImage: {fileID: 36323917}
   putOnButton: {fileID: 1527096864}
   inTowerHat: {fileID: 1601591182}
+  hatID: 0
 --- !u!114 &834512333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10029,6 +10030,7 @@ MonoBehaviour:
   hatImage: {fileID: 538376231}
   putOnButton: {fileID: 735870065}
   inTowerHat: {fileID: 1601591182}
+  hatID: 0
 --- !u!114 &1094633220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11065,6 +11067,7 @@ MonoBehaviour:
   hatImage: {fileID: 1247715921}
   putOnButton: {fileID: 923515697}
   inTowerHat: {fileID: 1601591182}
+  hatID: 0
 --- !u!114 &1326880943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12000,6 +12003,7 @@ MonoBehaviour:
   hatImage: {fileID: 399092376}
   putOnButton: {fileID: 1397582387}
   inTowerHat: {fileID: 1601591182}
+  hatID: 0
 --- !u!114 &1502505973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12528,6 +12532,7 @@ MonoBehaviour:
   hatImage: {fileID: 1241179933}
   putOnButton: {fileID: 804267537}
   inTowerHat: {fileID: 1601591182}
+  hatID: 0
 --- !u!114 &1578116398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12596,6 +12601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1601591183}
   - component: {fileID: 1601591184}
+  - component: {fileID: 1601591185}
   m_Layer: 0
   m_Name: toadHat
   m_TagString: Untagged
@@ -12668,6 +12674,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1601591185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601591182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893b3868fa744c24ba0051682105f8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wearedHatID: 0
+  hats:
+  - {fileID: 0}
+  - {fileID: 3200245314027630480, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
+  - {fileID: -57921569455135347, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
+  - {fileID: -878793544040632669, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
+  - {fileID: 7960259286683005008, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
+  - {fileID: -6585437614361438694, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
+  - {fileID: -8219847405777042665, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
+  hat: {fileID: 0}
 --- !u!1 &1605181072
 GameObject:
   m_ObjectHideFlags: 0
@@ -14913,6 +14941,7 @@ MonoBehaviour:
   hatImage: {fileID: 1990872280}
   putOnButton: {fileID: 302497746}
   inTowerHat: {fileID: 1601591182}
+  hatID: 0
 --- !u!114 &2060761678
 MonoBehaviour:
   m_ObjectHideFlags: 0

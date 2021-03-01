@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Puritan hat
   description: If you like working as much as the god, this is for you.
   active: 1
-  hatID: 3
+  id: 3
   disactiveImage: {fileID: 6404010320871212158, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   activeImage: {fileID: -4068050434626739561, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   inTowerImage: {fileID: -878793544040632669, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}

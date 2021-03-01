@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public Text mushkiDisplayFinal;
     public float mushki = 0;
     public float mushkiPerClick = 1;
+   
     
 
     void Update()

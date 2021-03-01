@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Anime hat
   description: Oh? You're Approaching Me?
   active: 1
-  hatID: 1
+  id: 1
   disactiveImage: {fileID: -5406414266476241886, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   activeImage: {fileID: -5457728778280095458, guid: 2f0e5f149e5693c46938dbc203039328, type: 3}
   inTowerImage: {fileID: 3200245314027630480, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
