@@ -3,13 +3,13 @@
 public class GameScript : MonoBehaviour
 {
     public TongueScript SelectedTongue { get; set; }
-    public bool Tcontrole = true; // Boolean for enable/disable touching of tongue
+    public bool Tcontrole = true; // Enable/disable input
     const float MIN_RANGE = 0.1f; // Distance to starting position
     public Boundaries Bounds; // Screen bounds
     public TrajectoryRenderer TongueTrajectory; 
     public Animator animator;
     private int i = 1;
-    
+
     /* Main mechanics of the tongue is used to be different
      * it should have disappeared after returning to toad
      * but I decided to keep it always on the screen
@@ -21,10 +21,9 @@ public class GameScript : MonoBehaviour
     {
         Vector3 touch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        // If touching of tongue is enabled
+        // If input is enabled
         if (Tcontrole == true)
         {
-            // On pointer down
             if (Input.GetMouseButtonDown(0))
             {
                 if (SelectedTongue == null)
@@ -48,13 +47,15 @@ public class GameScript : MonoBehaviour
         if (SelectedTongue != null)
         {
             Bounds.Boundary();
+            
             if (i == 1)
             {
                 TongueTrajectory.SpawnTrajectory();
+
                 i = 0;
             }
             TongueTrajectory.Trajectory();
-
+            
             // Moving tongue to finger
             SelectedTongue.transform.position = Vector3.MoveTowards
             (SelectedTongue.transform.position, 
@@ -66,10 +67,8 @@ public class GameScript : MonoBehaviour
                 (SelectedTongue.transform.position.x, SelectedTongue.transform.position.y);
             var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             SelectedTongue.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            
         }
-
-        // On pointer up
+        
         if (Input.GetMouseButtonUp(0))
         {
             Tcontrole = false;
@@ -77,8 +76,10 @@ public class GameScript : MonoBehaviour
             {
                 animator.SetBool("anGrab",false);
                 animator.SetBool("anBack",true);
+                
                 TongueTrajectory.DestroyTrajectory();
                 i = 1;
+                
                 // Tongue strikes using the angle
                 SelectedTongue.GetComponent<Rigidbody2D>().isKinematic = false;
                 SelectedTongue.GetComponent<Rigidbody2D>().AddForceAtPosition

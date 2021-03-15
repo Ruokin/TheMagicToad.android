@@ -17,6 +17,7 @@ public class TongueScript : MonoBehaviour
     
     public Animator animator;
 
+    
     public static class GV //Global Variable
     {
         public static Vector2 ReturnPos;
@@ -30,25 +31,31 @@ public class TongueScript : MonoBehaviour
         Healthbar.SetMaxHealth(maxHealth);
         StartCoroutine("DamageForSec");
     }
-
-    void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        Healthbar.SetHealth(currentHealth);
-    }
     
-    void TakeHeal(int heal)
+    void Update()
     {
-        currentHealth += heal;
-        Healthbar.SetHealth(currentHealth);
-    }
-    
-    IEnumerator DamageForSec()
-    {
-        while (true)
+        //Returning to starting position
+        TrigReturn = TongueScript.GV.ReturnPos;
+        TongRB = GameObject.FindWithTag("Tongue").GetComponent<Rigidbody2D>();
+        if (i != false)
         {
-            TakeDamage(5);
-            yield return new WaitForSeconds(0.1f);  
+            GameObject.FindWithTag("Tongue").transform.position = Vector3.Lerp
+            (GameObject.FindWithTag("Tongue").transform.position,
+                TrigReturn,
+                Time.deltaTime * 8f);
+        }
+
+        //Reaching starting position check
+        if (Vector2.Distance(TrigReturn,GameObject.FindWithTag("Tongue").transform.position) < MIN_RANGE)
+        {
+            i = false;
+            animator.SetBool("anEat",false);
+            animator.SetBool("anIdle",true);
+        }
+
+        if (currentHealth <= 0)
+        {
+            Invoke("Restart", restartDelay);
         }
     }
     
@@ -93,36 +100,31 @@ public class TongueScript : MonoBehaviour
             }
         }
     }
-
+    
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        Healthbar.SetHealth(currentHealth);
+    }
+    
+    void TakeHeal(int heal)
+    {
+        currentHealth += heal;
+        Healthbar.SetHealth(currentHealth);
+    }
+    
     private void Restart()
     {
         FindObjectOfType<GameOverPopUp>().GameOver();
     }
     
-    void Update()
+    IEnumerator DamageForSec()
     {
-        //Returning to starting position
-        TrigReturn = TongueScript.GV.ReturnPos;
-        TongRB = GameObject.FindWithTag("Tongue").GetComponent<Rigidbody2D>();
-        if (i != false)
+        while (true)
         {
-            GameObject.FindWithTag("Tongue").transform.position = Vector3.Lerp
-            (GameObject.FindWithTag("Tongue").transform.position,
-                TrigReturn,
-                Time.deltaTime * 8f);
-        }
-
-        //Reaching starting position check
-        if (Vector2.Distance(TrigReturn,GameObject.FindWithTag("Tongue").transform.position) < MIN_RANGE)
-        {
-            i = false;
-            animator.SetBool("anEat",false);
-            animator.SetBool("anIdle",true);
-        }
-
-        if (currentHealth <= 0)
-        {
-            Invoke("Restart", restartDelay);
+            TakeDamage(5);
+            yield return new WaitForSeconds(0.1f);  
         }
     }
+    
 }

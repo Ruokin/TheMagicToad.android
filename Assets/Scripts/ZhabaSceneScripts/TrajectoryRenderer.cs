@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class TrajectoryRenderer : MonoBehaviour
 {
@@ -11,12 +12,13 @@ public class TrajectoryRenderer : MonoBehaviour
 
     public int numberOfPoints;
     
+    
     public void SpawnTrajectory()
     {
         Points = new GameObject[numberOfPoints];
-
+        
         for (int i = 0; i < numberOfPoints; i++)
-        {
+        { 
             Points[i] = Instantiate(PointPrefab, transform.position, Quaternion.identity);
         }
     }
@@ -48,4 +50,5 @@ public class TrajectoryRenderer : MonoBehaviour
         Vector2 currentPointPos = (Vector2)transform.position + (Direction.normalized * force * t);
         return currentPointPos;
     }
+    
 }

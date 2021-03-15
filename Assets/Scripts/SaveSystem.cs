@@ -4,23 +4,23 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-   public static void SaveHat(HatDisplay hatDisplay)
+   public static void SaveStats(PlayerStats playerStats)
    {
       BinaryFormatter formatter = new BinaryFormatter();
       
-      string path = Application.persistentDataPath + "/player.hat";
+      string path = Application.persistentDataPath + "/player.stats";
       FileStream stream = new FileStream(path, FileMode.Create);
       
-      PlayerData data = new PlayerData(hatDisplay);
+      PlayerData data = new PlayerData(playerStats);
       
       formatter.Serialize(stream, data);
       
       stream.Close();
    }
-
-   public static PlayerData LoadHat()
+   
+   public static PlayerData LoadStats()
    {
-      string path = Application.persistentDataPath + "/player.hat";
+      string path = Application.persistentDataPath + "/player.stats";
 
       if (File.Exists(path))
       {

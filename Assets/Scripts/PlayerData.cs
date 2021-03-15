@@ -6,9 +6,11 @@ using UnityEngine;
 public class PlayerData
 {
     public int wearedHatID;
-
-    public PlayerData (HatDisplay hatDisplay)
+    public int money;
+    
+    public PlayerData (PlayerStats playerStats)
     {
-        wearedHatID = hatDisplay.hatID;
+        wearedHatID = playerStats.wearedHatID;
+        money = playerStats.money;
     }
 }

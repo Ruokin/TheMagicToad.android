@@ -995,7 +995,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: -0.000004929412, z: -0.52908945}
     m_Rotation: {x: -0.00053126406, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
+    m_Scale: {x: 0.96864814, y: 0, z: 0.5692902}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -1074,7 +1074,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.6861334
+      value: 0.38379118
       mode: 0
       spread: 0
       speed:
@@ -5082,7 +5082,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54909288}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.488, z: 1}
+  m_LocalPosition: {x: 0, y: 0.627, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1472976773}
@@ -5584,6 +5584,7 @@ GameObject:
   - component: {fileID: 160503014}
   - component: {fileID: 160503018}
   - component: {fileID: 160503019}
+  - component: {fileID: 160503020}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5704,6 +5705,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InvMenuUI: {fileID: 416947515}
+--- !u!114 &160503020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160503013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c822173028aefb4b8c3274f0d744675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyDisplay: {fileID: 1605181074}
+  money: 0
+  playerStats: {fileID: 1903059562}
+--- !u!1 &167319428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167319429}
+  - component: {fileID: 167319430}
+  m_Layer: 0
+  m_Name: sky_front
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167319429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167319428}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1971513497}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &167319430
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167319428}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -2
+  m_Sprite: {fileID: 21300000, guid: 7dd168ed506791b44a0d330f922793cf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.62, y: 2.62}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &187952715
 GameObject:
   m_ObjectHideFlags: 0
@@ -5796,7 +5894,7 @@ GameObject:
   - component: {fileID: 251224724}
   - component: {fileID: 251224723}
   m_Layer: 5
-  m_Name: StoreButton
+  m_Name: OptionsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6155,6 +6253,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2060761676}
+        m_TargetAssemblyTypeName: HatsDescriptionMngr, Assembly-CSharp
+        m_MethodName: Deselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 160503019}
+        m_TargetAssemblyTypeName: InventoryMngr, Assembly-CSharp
+        m_MethodName: Close
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &302497749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6263,7 +6385,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -8711316126297937371, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7005,7 +7127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Opt
+  m_Text: Twr
 --- !u!222 &535088196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7159,9 +7281,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Str
-
-'
+  m_Text: Opt
 --- !u!222 &546520569
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7195,7 +7315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605328994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.76761687, y: -2.257, z: 124.25414}
+  m_LocalPosition: {x: 0.62, y: -2.257, z: 124.25414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1441258128}
@@ -7512,7 +7632,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694047642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.7, y: -0.55, z: 124.25414}
+  m_LocalPosition: {x: 3.01, y: -1.03, z: 124.25414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1441258128}
@@ -7814,6 +7934,30 @@ MonoBehaviour:
       - m_Target: {fileID: 1094633219}
         m_TargetAssemblyTypeName: HatDisplay, Assembly-CSharp
         m_MethodName: PutOnHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1094633221}
+        m_TargetAssemblyTypeName: HatsDescriptionMngr, Assembly-CSharp
+        m_MethodName: Deselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 160503019}
+        m_TargetAssemblyTypeName: InventoryMngr, Assembly-CSharp
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8188,6 +8332,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1578116398}
+        m_TargetAssemblyTypeName: HatsDescriptionMngr, Assembly-CSharp
+        m_MethodName: Deselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 160503019}
+        m_TargetAssemblyTypeName: InventoryMngr, Assembly-CSharp
+        m_MethodName: Close
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &804267540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8461,6 +8629,7 @@ MonoBehaviour:
   putOnButton: {fileID: 1527096864}
   inTowerHat: {fileID: 1601591182}
   hatID: 0
+  playerStats: {fileID: 1903059562}
 --- !u!114 &834512333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9116,6 +9285,30 @@ MonoBehaviour:
       - m_Target: {fileID: 1326880942}
         m_TargetAssemblyTypeName: HatDisplay, Assembly-CSharp
         m_MethodName: PutOnHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1326880941}
+        m_TargetAssemblyTypeName: HatsDescriptionMngr, Assembly-CSharp
+        m_MethodName: Deselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 160503019}
+        m_TargetAssemblyTypeName: InventoryMngr, Assembly-CSharp
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9831,7 +10024,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091866260}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2363832, y: -2.8579, z: 124.25414}
+  m_LocalPosition: {x: -1.236, y: -2.838, z: 124.25414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1441258128}
@@ -10031,6 +10224,7 @@ MonoBehaviour:
   putOnButton: {fileID: 735870065}
   inTowerHat: {fileID: 1601591182}
   hatID: 0
+  playerStats: {fileID: 1903059562}
 --- !u!114 &1094633220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10159,7 +10353,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: 1256337393098142273, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11068,6 +11262,7 @@ MonoBehaviour:
   putOnButton: {fileID: 923515697}
   inTowerHat: {fileID: 1601591182}
   hatID: 0
+  playerStats: {fileID: 1903059562}
 --- !u!114 &1326880943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11126,7 +11321,7 @@ GameObject:
   - component: {fileID: 1374548314}
   - component: {fileID: 1374548313}
   m_Layer: 5
-  m_Name: OptButton
+  m_Name: TowerButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11327,6 +11522,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1502505971}
+        m_TargetAssemblyTypeName: HatsDescriptionMngr, Assembly-CSharp
+        m_MethodName: Deselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 160503019}
+        m_TargetAssemblyTypeName: InventoryMngr, Assembly-CSharp
+        m_MethodName: Close
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1397582390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11436,7 +11655,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 347934492040701661, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
+  m_Sprite: {fileID: -2889198345016845115, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12004,6 +12223,7 @@ MonoBehaviour:
   putOnButton: {fileID: 1397582387}
   inTowerHat: {fileID: 1601591182}
   hatID: 0
+  playerStats: {fileID: 1903059562}
 --- !u!114 &1502505973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12261,6 +12481,30 @@ MonoBehaviour:
       - m_Target: {fileID: 834512332}
         m_TargetAssemblyTypeName: HatDisplay, Assembly-CSharp
         m_MethodName: PutOnHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 834512331}
+        m_TargetAssemblyTypeName: HatsDescriptionMngr, Assembly-CSharp
+        m_MethodName: Deselected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 160503019}
+        m_TargetAssemblyTypeName: InventoryMngr, Assembly-CSharp
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12533,6 +12777,7 @@ MonoBehaviour:
   putOnButton: {fileID: 804267537}
   inTowerHat: {fileID: 1601591182}
   hatID: 0
+  playerStats: {fileID: 1903059562}
 --- !u!114 &1578116398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12696,6 +12941,7 @@ MonoBehaviour:
   - {fileID: -6585437614361438694, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
   - {fileID: -8219847405777042665, guid: 1c0313702bbaba54b8fc3043877c37d2, type: 3}
   hat: {fileID: 0}
+  playerStats: {fileID: 1903059562}
 --- !u!1 &1605181072
 GameObject:
   m_ObjectHideFlags: 0
@@ -12730,8 +12976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -51.449997, y: 0.6999512}
-  m_SizeDelta: {x: 86.219574, y: 33}
+  m_AnchoredPosition: {x: -52.31, y: 0.6999512}
+  m_SizeDelta: {x: 84.504715, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605181074
 MonoBehaviour:
@@ -12760,13 +13006,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 48
-    m_Alignment: 4
+    m_Alignment: 5
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 999999999
+  m_Text: 
 --- !u!222 &1605181075
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13363,7 +13609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768135626}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.823617, y: -4.903, z: 124.25414}
+  m_LocalPosition: {x: 3.027, y: -4.443, z: 124.25414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1441258128}
@@ -13409,7 +13655,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -4462411795971604777, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
+  m_Sprite: {fileID: 2914324356424985286, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13526,13 +13772,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804534569}
-  m_LocalRotation: {x: -0, y: -0, z: 0.078589335, w: 0.9969071}
-  m_LocalPosition: {x: -0.8423832, y: -3.47, z: 124.25414}
+  m_LocalRotation: {x: -0, y: -0, z: 0.030260555, w: -0.9995421}
+  m_LocalPosition: {x: -3.26, y: -3.58, z: 124.25414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1441258128}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.015}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.468}
 --- !u!212 &1804534571
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13830,6 +14076,7 @@ GameObject:
   - component: {fileID: 1903059560}
   - component: {fileID: 1903059559}
   - component: {fileID: 1903059561}
+  - component: {fileID: 1903059562}
   m_Layer: 0
   m_Name: Zhaba
   m_TagString: Untagged
@@ -13922,6 +14169,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1903059562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903059558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052e68b7088d7e349a6e3a9f47b07e38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wearedHatID: 0
+  money: 1
 --- !u!1 &1971513495
 GameObject:
   m_ObjectHideFlags: 0
@@ -13979,7 +14240,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: -4
   m_Sprite: {fileID: -531187261805749909, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14001,7 +14262,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
-  m_Children: []
+  m_Children:
+  - {fileID: 167319429}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14541,7 +14803,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6065302819524094302, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
+  m_Sprite: {fileID: -8691433283659108659, guid: de0a40434bc9f104eaf8ab606a5b2e8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14942,6 +15204,7 @@ MonoBehaviour:
   putOnButton: {fileID: 302497746}
   inTowerHat: {fileID: 1601591182}
   hatID: 0
+  playerStats: {fileID: 1903059562}
 --- !u!114 &2060761678
 MonoBehaviour:
   m_ObjectHideFlags: 0

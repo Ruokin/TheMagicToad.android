@@ -7,11 +7,12 @@ public class PutOnHat : MonoBehaviour
     public int wearedHatID;
     public List<Sprite> hats;
     public Sprite hat;
+    public PlayerStats playerStats;
 
     void Start()
     {
-        PlayerData data = SaveSystem.LoadHat();
-        wearedHatID = data.wearedHatID;
+        playerStats.LoadStats();
+        wearedHatID = playerStats.wearedHatID;
 
         switch (wearedHatID)
         {

@@ -7,6 +7,8 @@ public class TongueBodyRenderer : MonoBehaviour
     public GameObject go2;
     LineRenderer l;
     public Material newMaterial;
+    public Color g1 = new Color(204, 45, 45, 255);
+    public Color g2 = new Color(204, 45, 45, 255);
     
     void Start()
     {
@@ -22,8 +24,7 @@ public class TongueBodyRenderer : MonoBehaviour
         l.startWidth = 0.2f;
         l.endWidth = 0.2f;
         l.material = newMaterial;
-        l.startColor = Color.red;
-        l.endColor = Color.red;
+        l.SetColors(g1, g2);
         l.SetPositions(pos.ToArray());
         l.useWorldSpace = true;
         l.sortingOrder = 1;

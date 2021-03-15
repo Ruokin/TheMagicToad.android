@@ -13,17 +13,13 @@ public class HatDisplay : MonoBehaviour
     public GameObject putOnButton;
     public GameObject inTowerHat;
     public int hatID;
-    
 
+    public PlayerStats playerStats;
+    
 
     void Start()
     {
-        PlayerData data = SaveSystem.LoadHat();
-
-        if (data.wearedHatID != 0)
-        {
-            
-        }
+        playerStats.LoadStats();
         
         if (hat.active == true)
         {
@@ -46,7 +42,9 @@ public class HatDisplay : MonoBehaviour
     {
         inTowerHat.GetComponent<SpriteRenderer>().sprite = hat.inTowerImage;
         hatID = hat.id;
-        SaveSystem.SaveHat(this);
+        playerStats.wearedHatID = hatID;
+        
+        playerStats.SaveStats();
+        
     }
-    
 }

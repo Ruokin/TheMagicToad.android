@@ -5,8 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public Text mushkiDisplay;
     public Text mushkiDisplayFinal;
-    public float mushki = 0;
-    public float mushkiPerClick = 1;
+    public int mushki = 0;
+    public int mushkiPerClick = 1;
    
     
 
