@@ -16,8 +16,9 @@ public class TongueScript : MonoBehaviour
     public HealthbarScript Healthbar;
     
     public Animator animator;
+    public PlayerStats playerStats;
 
-    
+
     public static class GV //Global Variable
     {
         public static Vector2 ReturnPos;
@@ -103,8 +104,11 @@ public class TongueScript : MonoBehaviour
     
     void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        Healthbar.SetHealth(currentHealth);
+        if (playerStats.TutorialEnded == true)
+        {
+            currentHealth -= damage;
+            Healthbar.SetHealth(currentHealth);
+        }
     }
     
     void TakeHeal(int heal)

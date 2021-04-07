@@ -11,6 +11,11 @@ TagManager:
   - Boundary
   - FlyPoison
   - PortalParts
+  - trashWeb
+  - trash1
+  - trash2
+  - Particles
+  - trashParticles
   layers:
   - Default
   - TransparentFX
